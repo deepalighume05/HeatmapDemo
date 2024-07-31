@@ -1,0 +1,18 @@
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); /* Auto-fill columns with minimum 40px */
+  gap: 2px;
+  margin: 10px;
+}
+
+.heatmap-cell {
+  width: 100%; /* Full width of the cell */
+  height: 40px; /* Fixed height for each cell */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}

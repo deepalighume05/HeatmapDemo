@@ -1,0 +1,6 @@
+<div class="heatmap">
+    <div class="heatmap-cell" *ngFor="let cell of grid" [style.background-color]="cell.color">
+<span>{{ cell.intensity > 0 ? cell.intensity : '' }}</span>
+    </div>
+  </div>
+  
